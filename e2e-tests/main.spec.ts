@@ -44,7 +44,7 @@ test.beforeAll(async () => {
     args: [
       appInfo.main,
       "--enable-logging",
-      "--user-data-dir=/tmp/dyad-e2e-tests",
+      "--user-data-dir=/tmp/devo-e2e-tests",
     ],
     executablePath: appInfo.executable,
   });

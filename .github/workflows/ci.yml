@@ -19,7 +19,7 @@ jobs:
   test:
     # Why Mac?
     # I can't run electron playwright on ubuntu-latest and
-    # Linux support for Dyad is experimental so not as important
+    # Linux support for Devo is experimental so not as important
     # as Mac + Windows
     runs-on: macos-latest
     steps:
