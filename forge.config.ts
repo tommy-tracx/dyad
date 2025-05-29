@@ -53,8 +53,8 @@ const config: ForgeConfig = {
   packagerConfig: {
     protocols: [
       {
-        name: "Dyad",
-        schemes: ["dyad"],
+        name: "Devo",
+        schemes: ["devo"],
       },
     ],
     icon: "./assets/icon/logo",
@@ -87,7 +87,7 @@ const config: ForgeConfig = {
     new MakerRpm({}),
     new MakerDeb({
       options: {
-        mimeType: ["x-scheme-handler/dyad"],
+        mimeType: ["x-scheme-handler/devo"],
       },
     }),
   ],
